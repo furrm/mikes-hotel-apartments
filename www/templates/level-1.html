@@ -1,0 +1,22 @@
+<ion-view>
+
+    <!--<ion-nav-buttons side="left">-->
+        <!--<button menu-toggle="left" class="button button-icon icon ion-navicon mikes-toggle-button"></button>-->
+    <!--</ion-nav-buttons>-->
+    <!--<div class="bar bar-header bar-header-image" style="background-image:url('img/pool-chair.jpg');">-->
+
+    <!--</div>-->
+
+  <ion-content class="no-header" on-scroll="isScrolling()" has-bouncing="false">
+      <!--<ion-refresher style="color: white;" refreshing-text="Doing a refresh"-->
+              <!--pulling-text="Pull to refresh..."-->
+              <!--on-refresh="doRefresh()">-->
+      <!--</ion-refresher>-->
+      <mikes-header photo="img/pool-chair.jpg"></mikes-header>
+      <div class="bar bar-subheader bar-no-border bar-subheader-image blue darken-2 z-depth-1">
+          <div class="subheader-title">{{title}}</div>
+      </div>
+      <ion-nav-view name="accommodationContent"></ion-nav-view>
+
+  </ion-content>
+</ion-view>
